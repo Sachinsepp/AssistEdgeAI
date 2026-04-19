@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assistify</title>
+  <style>
+    :root {
+      --primary: #0074cc;
+      --primary-dark: #005a99;
+      --accent: #3399ff;
+      --background: #eaf4fc;
+      --text: #333;
+      --white: #ffffff;
+      --shadow: rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: var(--white);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px var(--shadow);
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 10px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .tagline {
+      text-align: center;
+      color: #777;
+      margin-bottom: 30px;
+      font-size: 1.1em;
+      font-weight: 500;
+    }
+
+    label {
+      font-weight: 600;
+      margin-top: 20px;
+      display: block;
+      color: var(--primary-dark);
+    }
+
+    select, textarea, input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    textarea::placeholder {
+      color: #aaa;
+    }
+
+    select:focus, textarea:focus {
+      border-color: var(--primary);
+      outline: none;
+    }
+
+    input[type="submit"] {
+      background-color: var(--primary);
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: var(--primary-dark);
+    }
+
+    .result {
+      background-color: var(--white);
+      border-left: 6px solid var(--accent);
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+
+    .result h3 {
+      margin-top: 0;
+      color: var(--primary-dark);
+    }
+
+    .result p {
+      white-space: pre-wrap;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🤖 Welcome to Assistify</h1>
+    <p class="tagline">Assistify &ndash; Your AI-powered assistant for answers, summaries, and creativity</p>
+
+    <!-- Task Selection and Input -->
+    <form method="POST">
+      <label for="task">What do you need help with today?</label>
+      <select name="task" id="task" required onchange="clearInputAndResponse()">
+        <option value="question" {% if task == 'question' or not task %}selected{% endif %}>💬 Ask a question</option>
+        <option value="summary" {% if task == 'summary' %}selected{% endif %}>📝 Summarize the text</option>
+        <option value="creative" {% if task == 'creative' %}selected{% endif %}>🎨 Generate creative content</option>
+      </select>
+
+      <label for="user_input">Your prompt or text:</label>
+      <textarea name="user_input" id="user_input" rows="6" placeholder="Type or paste your content here..." required>{{ user_input }}</textarea>
+
+      <input type="submit" value="✨ Ask Assistify">
+    </form>
+
+    <!-- AI Response Output -->
+    <div id="response-block">
+      {% if result %}
+        <div class="result">
+          <h3>🧠 Here's what I came up with:</h3>
+          <p>{{ result }}</p>
+        </div>
+
+        <!-- Feedback Form -->
+        {% if feedback_submitted %}
+          <div class="result" style="border-left-color: #28a745; background-color: #d4edda; color: #155724;">
+            <p style="margin: 0; font-weight: bold;">✅ Thank you for your feedback!</p>
+          </div>
+        {% else %}
+          <form method="POST">
+            <input type="hidden" name="task" value="{{ task }}">
+            <input type="hidden" name="user_input" value="{{ user_input }}">
+            <input type="hidden" name="result" value="{{ result }}">
+
+            <label for="feedback">Was this helpful to you?</label>
+            <select name="feedback" id="feedback" required>
+              <option value="">-- Choose an option --</option>
+              <option value="yes">✅ Yes, it was helpful</option>
+              <option value="no">❌ Not really</option>
+            </select>
+
+            <input type="submit" value="💬 Submit Feedback">
+          </form>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Assistify | Built using Flask & OpenRouter
+  </footer>
+
+  <!-- JavaScript to reset input and response when task changes -->
+  <script>
+    function clearInputAndResponse() {
+      document.getElementById("user_input").value = "";
+      const responseBlock = document.getElementById("response-block");
+      if (responseBlock) {
+        responseBlock.innerHTML = "";
+      }
+    }
+  </script>
+
+</body>
+</html>

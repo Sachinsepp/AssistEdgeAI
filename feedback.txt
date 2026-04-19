@@ -1,0 +1,103 @@
+Prompt: When you get hungry, you grab a snack from your fridge or pantry. But what can plants do when they get hungry? You are probably aware that plants need sunlight, water, and a home (like soil) to grow, but where do they get their food? They make it themselves!
+
+Plants are called autotrophs because they can use energy from light to synthesize, or make, their own food source. Many people believe they are “feeding” a plant when they put it in soil, water it, or place it outside in the Sun, but none of these things are considered food. Rather, plants use sunlight, water, and the gases in the air to make glucose, which is a form of sugar that plants need to survive. This process is called photosynthesis and is performed by all plants, algae, and even some microorganisms. To perform photosynthesis, plants need three things: carbon dioxide, water, and sunlight.
+Feedback: yes
+
+Prompt: When you get hungry, you grab a snack from your fridge or pantry. But what can plants do when they get hungry? You are probably aware that plants need sunlight, water, and a home (like soil) to grow, but where do they get their food? They make it themselves!
+
+Plants are called autotrophs because they can use energy from light to synthesize, or make, their own food source. Many people believe they are “feeding” a plant when they put it in soil, water it, or place it outside in the Sun, but none of these things are considered food. Rather, plants use sunlight, water, and the gases in the air to make glucose, which is a form of sugar that plants need to survive. This process is called photosynthesis and is performed by all plants, algae, and even some microorganisms. To perform photosynthesis, plants need three things: carbon dioxide, water, and sunlight.
+Feedback: yes
+
+Prompt: When you get hungry, you grab a snack from your fridge or pantry. But what can plants do when they get hungry? You are probably aware that plants need sunlight, water, and a home (like soil) to grow, but where do they get their food? They make it themselves!
+
+Plants are called autotrophs because they can use energy from light to synthesize, or make, their own food source. Many people believe they are “feeding” a plant when they put it in soil, water it, or place it outside in the Sun, but none of these things are considered food. Rather, plants use sunlight, water, and the gases in the air to make glucose, which is a form of sugar that plants need to survive. This process is called photosynthesis and is performed by all plants, algae, and even some microorganisms. To perform photosynthesis, plants need three things: carbon dioxide, water, and sunlight.
+Feedback: no
+
+Prompt: When you get hungry, you grab a snack from your fridge or pantry. But what can plants do when they get hungry? You are probably aware that plants need sunlight, water, and a home (like soil) to grow, but where do they get their food? They make it themselves!
+
+Plants are called autotrophs because they can use energy from light to synthesize, or make, their own food source. Many people believe they are “feeding” a plant when they put it in soil, water it, or place it outside in the Sun, but none of these things are considered food. Rather, plants use sunlight, water, and the gases in the air to make glucose, which is a form of sugar that plants need to survive. This process is called photosynthesis and is performed by all plants, algae, and even some microorganisms. To perform photosynthesis, plants need three things: carbon dioxide, water, and sunlight.
+Feedback: no
+
+Prompt: tell a story about a woman who has ran away from her home and faces many problem.
+
+Feedback: yes
+
+Prompt: In science, a law is a general statement that explains a large number of observations. Before being accepted, a law must be verified many times under many conditions. Laws are therefore considered the highest form of scientific knowledge and are generally thought to be inviolable. Scientific laws form the core of scientific knowledge. One scientific law that provides the foundation for understanding in chemistry is the law of conservation of matter. It states that in any given system that is closed to the transfer of matter (in and out), the amount of matter in the system stays constant. A concise way of expressing this law is to say that the amount of matter in a system is conserved.
+Anything that has mass and takes up space.
+
+With the development of more precise ideas on elements, compounds and mixtures, scientists began to investigate how and why substances react. French chemist A. Lavoisier laid the foundation to the scientific investigation of matter by describing that substances react by following certain laws. These laws are called the laws of chemical combination. These eventually formed the basis of Dalton's Atomic Theory of Matter.
+Feedback: yes
+
+Prompt: In science, a law is a general statement that explains a large number of observations. Before being accepted, a law must be verified many times under many conditions. Laws are therefore considered the highest form of scientific knowledge and are generally thought to be inviolable. Scientific laws form the core of scientific knowledge. One scientific law that provides the foundation for understanding in chemistry is the law of conservation of matter. It states that in any given system that is closed to the transfer of matter (in and out), the amount of matter in the system stays constant. A concise way of expressing this law is to say that the amount of matter in a system is conserved.
+Anything that has mass and takes up space.
+
+With the development of more precise ideas on elements, compounds and mixtures, scientists began to investigate how and why substances react. French chemist A. Lavoisier laid the foundation to the scientific investigation of matter by describing that substances react by following certain laws. These laws are called the laws of chemical combination. These eventually formed the basis of Dalton's Atomic Theory of Matter.
+Feedback: yes
+
+Prompt: what is the capital of India
+Feedback: yes
+
+Prompt: what is the capital of India
+Feedback: yes
+
+Prompt: what is the capital of India
+Feedback: yes
+
+Prompt: a character discovers a hidden world beneath city , a group of friends unravel a mystery surrounding a seemingly ordinary object, or a person travels to the past to a change a pivotal moment in their life.
+Feedback: yes
+
+Prompt: who won the first noble prize for India
+Feedback: yes
+
+Prompt: who won the first noble prize for India
+Feedback: yes
+
+Prompt: what is python programming
+Feedback: yes
+
+Prompt: Artificial Intelligence (AI) and Artificial General Intelligence (AGI) are distinct concepts within the field of artificial intelligence, differing in scope, capabilities, and current status.
+
+AI refers to systems designed to perform specific tasks efficiently, such as image recognition, chatbots, or recommendation systems. These systems, often called narrow AI or weak AI, excel in their specialized domains but lack the ability to generalize knowledge or adapt to tasks outside their training. Examples include self-driving cars and virtual assistants like Siri or Alexa.
+
+AGI, on the other hand, represents a theoretical concept of machines capable of human-level cognition. AGI systems would possess the ability to learn, reason, and adapt across a wide range of tasks without requiring task-specific programming. They would demonstrate flexibility, creativity, and common sense reasoning akin to human intelligence.
+
+Key Differences Between AI and AGI
+
+Scope: AI is task-specific, while AGI aims to perform any intellectual task a human can.
+
+Capabilities: AI relies on pre-defined algorithms and training data, whereas AGI would autonomously learn and adapt to new tasks.
+
+Current Status: AI is widely implemented in industries like healthcare, finance, and transportation. AGI remains hypothetical and has not yet been realized.
+
+Examples: AI includes IBM Watson and facial recognition systems. AGI, if achieved, could theoretically solve complex global challenges like climate change or disease eradication.
+
+Challenges and Implications of AGI
+
+Developing AGI involves overcoming significant technical hurdles, such as enabling systems to generalize knowledge, reason with common sense, and align with human values. Ethical concerns, such as ensuring AGI remains safe and beneficial, are critical. Without safeguards, AGI could pose existential risks, as highlighted by thought experiments like the "paperclip maximizer".
+
+While AI continues to transform industries today, AGI represents a future goal that could revolutionize society. However, achieving AGI requires breakthroughs in areas like deep learning, robotics, and neuromorphic computing.
+Feedback: yes
+
+Prompt: Artificial Intelligence (AI) and Artificial General Intelligence (AGI) are distinct concepts within the field of artificial intelligence, differing in scope, capabilities, and current status.
+
+AI refers to systems designed to perform specific tasks efficiently, such as image recognition, chatbots, or recommendation systems. These systems, often called narrow AI or weak AI, excel in their specialized domains but lack the ability to generalize knowledge or adapt to tasks outside their training. Examples include self-driving cars and virtual assistants like Siri or Alexa.
+
+AGI, on the other hand, represents a theoretical concept of machines capable of human-level cognition. AGI systems would possess the ability to learn, reason, and adapt across a wide range of tasks without requiring task-specific programming. They would demonstrate flexibility, creativity, and common sense reasoning akin to human intelligence.
+
+Key Differences Between AI and AGI
+
+Scope: AI is task-specific, while AGI aims to perform any intellectual task a human can.
+
+Capabilities: AI relies on pre-defined algorithms and training data, whereas AGI would autonomously learn and adapt to new tasks.
+
+Current Status: AI is widely implemented in industries like healthcare, finance, and transportation. AGI remains hypothetical and has not yet been realized.
+
+Examples: AI includes IBM Watson and facial recognition systems. AGI, if achieved, could theoretically solve complex global challenges like climate change or disease eradication.
+
+Challenges and Implications of AGI
+
+Developing AGI involves overcoming significant technical hurdles, such as enabling systems to generalize knowledge, reason with common sense, and align with human values. Ethical concerns, such as ensuring AGI remains safe and beneficial, are critical. Without safeguards, AGI could pose existential risks, as highlighted by thought experiments like the "paperclip maximizer".
+
+While AI continues to transform industries today, AGI represents a future goal that could revolutionize society. However, achieving AGI requires breakthroughs in areas like deep learning, robotics, and neuromorphic computing.
+Feedback: yes
+
