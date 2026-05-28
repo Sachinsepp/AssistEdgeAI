@@ -1,10 +1,10 @@
-# 🤖 Assistify
+# 🤖 AssistEdgeAI
 
 ![Python Badge](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![Flask Badge](https://img.shields.io/badge/Framework-Flask-green)
 ![API Badge](https://img.shields.io/badge/Model-GPT--3.5--Turbo-orange)
 
-Assistify is a lightweight, elegant, AI-powered web assistant built using the **Flask** framework and the **OpenRouter API**. It allows users to query a modern LLM (GPT-3.5-Turbo by default) to fulfill various tasks seamlessly from their browser.
+AssistEdgeAI is a lightweight, elegant, AI-powered web assistant built using the **Flask** framework and the **OpenRouter API**. It allows users to query a modern LLM (GPT-3.5-Turbo by default) to fulfill various tasks seamlessly from their browser.
 
 ## ✨ Core Features
 - **💬 Ask Questions**: Query general knowledge and get instant, smart answers.
@@ -21,8 +21,8 @@ Assistify is a lightweight, elegant, AI-powered web assistant built using the **
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/Sachinsepp/Assistify.git
-   cd Assistify
+   git clone https://github.com/Sachinsepp/AssistEdgeAI.git
+   cd AssistEdgeAI
    ```
 
 2. **Create a virtual environment** (optional but highly recommended):
